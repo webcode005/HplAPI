@@ -42,8 +42,6 @@ if (isset($_GET['key']))
     }
     
 
-
-
 } 
 else {
     echo json_encode(['status' => 'false', 'data' => 'Please Provide API Key!']);
